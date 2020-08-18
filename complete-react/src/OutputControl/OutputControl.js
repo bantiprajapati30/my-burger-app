@@ -1,15 +1,11 @@
 import React from 'react';
+import './outControl.css'
 
 const outControl = (props) => {
     const style= {
-        
-        font:'inherit',
-        padding: '16px',
-        border: '2px solid-inline'
     }
     return (
-        <div>
-            style={style}
+        <div className="Sandeep">
             <p>UserName: {props.usrName}</p>
             <p>this is my project</p>
         </div>

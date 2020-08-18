@@ -3,7 +3,7 @@ import './App.css';
 import InControl from './InputControl/InputControl.js';
 import OutControl from './OutputControl/OutputControl';
 
-class App extends Component {
+class App3 extends Component {
   state = {
     username: "sandeep"
   }
@@ -29,4 +29,4 @@ class App extends Component {
     );
   }
 }
-export default App;
+export default App3;
